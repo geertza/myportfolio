@@ -1,0 +1,25 @@
+.header {
+height: 60px;
+background-color: firebrick;
+width: 100%;
+padding: 20px;
+}
+.header h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-color: dimgray;
+    font-size: 30px;
+}
+
+
+.navbar {
+    max-height: 40px;
+    background-color: dimgray;
+    font-size: 20px;
+    font-style: oblique;
+    font-stretch: expanded;
+    padding-left: 40%;
+    
+    ;
+}
+.navitem {}
