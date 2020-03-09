@@ -39,3 +39,57 @@ padding: 20px;
     width: 100%;
     height: auto;
   }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    }
+    
+    .textbox {
+      height: 40%;  
+      width: 55%;
+      border: 15px;
+      padding: 1%;
+      background-color: lightskyblue;
+      position: absolute;
+    bottom: -10%;
+    left: 15%;
+      
+    }
+    .picture img{
+    top: 35%;
+    position: absolute;
+    left: 5%;
+    width: 25%;
+    }
+    
+
+      .header h1 {
+          font-size: 36px;
+          text-align: center;
+          font-family: 'Indie Flower', cursive;
+          font-weight: bolder;
+      }
+      .header {
+          height: 75px;
+      }
+      
+      #inset {
+      font: bold 40px
+       arial, sans-serif;
+  background-color: slategrey;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+          text-align: center;
+        
+      }
+      .form-group  {
+          font: 35px,bold,;
+          color: mediumblue;
+          font-family: roboto slab;
+
+      }
+       
