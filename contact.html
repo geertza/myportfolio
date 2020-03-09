@@ -11,7 +11,7 @@
   <script type="text/javascript" src=".\assets\script.js"></script>
   <title>Andy Geertz Portfolio</title>
 </head>
-<body  style="background-color: lightslategray;">
+<body>
       
   <div class="header">
       <h1>Andy Geertz</h1>
@@ -28,17 +28,80 @@
           <a class="nav-item nav-link " href="index.html">Portfolio <span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="About.html">About</a>
           <a class="nav-item nav-link active" href="contact.html">Contact</a>
+        </div>
+          
 
+            
 
          
         </div>
+      
+  </nav>
+    <!-- add some pretty background -->
+    <div  class="bg">
+      <p>https://sweethings.net/vintage-beautiful-images </p>
+      <!-- Navbar again -->
+      <div class="container" ;>
+      <div class="img-responsive">
+        <div class="row">
+          <div class="col-md-6">
+            <name>Andy Geertz </name> 
+            <br> <br>
+            <address>Salt lake City</address>
+            <p>Email: Geertza@gmail.com<p>
+            <p>Phone: (406)539-1218</p>
+          </div>
+          <!-- form class to input info -->
+          <div class="col-md-6">
+            <div class="form-group">
+            <label>Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Phone</label>
+                <input type="tel" class="form-control">
+              </div>
+              <div class="form-group">
+                <label>Email</label>
+                  <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label>Message</label>
+                  <textarea class="form-control"  rows="6"></textarea>
+                    </div>
+                    <!-- add button to send the information to my email -->
+                   <div class="form-group">
+                     <button class="btn btn-primary btn-block">Send</button>
+                   </div> 
+          </div>
+        </div>
+      
       </div>
-    </nav>
-  </div>
+      </div>
 
-
-      contact me
+    </div>
 
     
 </body>
+<style>
+  body, html {
+height: 100%;
+margin: 0;
+}
+.bg {
+/* Creates a background, which scales and is easily positioned under everthing else. */
+background-image: url("./images/contact-bg.jpg");
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+box-shadow: lightslategray;
+
+}
+.p {
+  position: absolute;
+  right: auto;
+  bottom: auto;
+}
+</style>
 </html>
