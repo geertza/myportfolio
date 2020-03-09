@@ -32,12 +32,13 @@
         </div>
       </div>
     </nav>
-    <div  class="bg">
+    <div  class="bg" class="img-fluid" >
 
-        <div class="image">
-          <img src="images/profile_edit.jpg" style="position: absolute; left: 3%;bottom: 20%;\\">
-        </div>
-          <div class="textbox">
+        <div class="picture">
+          <img src="images/profile_edit.jpg" > 
+          </div>
+          <div class="textbox" >
+            
           <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate sed reprehenderit vitae ea pariatur, praesentium assumenda culpa, earum ratione nemo ad mollitia! Aspernatur incidunt molestias dicta sequi maxime! Quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti adipisci repellendus dolorem rem eveniet debitis necessitatibus, cupiditate soluta nam aperiam modi. Quae officiis non voluptates quidem, repudiandae rem dignissimos!</p1>
           </div>
         
@@ -67,5 +68,40 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.textbox {
+  height: 35%;  
+  width: 55%;
+  border: 15px;
+  padding: 1%;
+  background-color: lightskyblue;
+  position: absolute;
+bottom: -10%;
+left: 15%;
+  
+}
+.picture img{
+top: 35%;
+position: absolute;
+left: 5%;
+width: 25%;
+}
+@media screen and (max-width: 1120px) {
+  .picture img{
+    width:35%
+  }}
+  @media screen and (max-width: 800px){
+    .picture img{
+      width: 48%;
+    }
+  }
+  @media screen and (max-width: 550px){
+    .picture img{
+      width: 65%;
+    }
+  }
+  
+
+
+
 </style>
 </html>

@@ -35,12 +35,7 @@ padding: 20px;
     border-width: 20px;
     padding: 10%;
 }
-.textbox {
-    width: 300px;
-  border: 15px;
-  padding: 50px;
-  margin: 20px;
-  background-color: steelblue;
-  position: absolute;
-  left: 25%;
-}
+.responsive {
+    width: 100%;
+    height: auto;
+  }
