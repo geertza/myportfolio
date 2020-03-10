@@ -1,24 +1,30 @@
+                    /* header */
+
 .header {
-height: 60px;
+height: 75px;
 background-color: slategray;
 width: 100%;
 padding: 20px;
 }
 .header h1 {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
     text-decoration-color: dimgray;
-    font-size: 30px;
     margin-top: 5px;
-    padding:0px
+    padding:0px;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
 }
+
+
+                            /* navbar */
+
 .navbar .navbar-nav {
     margin-left: 40%;
     }
 
-.navbar-nav li{
-        padding-left: 20%;
-    }  
+
   
 .navbar {
     background-color: lightsteelblue;
@@ -27,6 +33,10 @@ padding: 20px;
     
     
 }
+
+
+                        /* portfolio */
+
 .thumbnail img {
     max-width: 100%;
     max-height: 100%;
@@ -40,10 +50,7 @@ padding: 20px;
     height: auto;
   }
 
-  body, html {
-    height: 100%;
-    margin: 0;
-    }
+                                /* contact */
     
     .textbox {
       height: 40%;  
@@ -56,40 +63,47 @@ padding: 20px;
     left: 15%;
       
     }
-    .picture img{
+    
+    #inset {
+        font: bold 40px
+         arial, sans-serif;
+    background-color: slategrey;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+    -webkit-background-clip: text;
+       -moz-background-clip: text;
+            background-clip: text;
+            text-align: center;}
+
+    .form-group  {
+                font: 35px,bold,;
+                color: mediumblue;
+                font-family: roboto slab;
+      
+            }
+             
+            
+
+                            /* index/about */
+    
+    .picture-profile img{
     top: 35%;
     position: absolute;
     left: 5%;
     width: 25%;
     }
     
-
-      .header h1 {
-          font-size: 36px;
-          text-align: center;
-          font-family: 'Indie Flower', cursive;
-          font-weight: bolder;
-      }
-      .header {
-          height: 75px;
-      }
-      
-      #inset {
-      font: bold 40px
-       arial, sans-serif;
-  background-color: slategrey;
-  color: transparent;
-  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
-  -webkit-background-clip: text;
-     -moz-background-clip: text;
-          background-clip: text;
-          text-align: center;
+    .bg {
+        /* Creates a background, which scales and is easily positioned under everthing else. */
         
-      }
-      .form-group  {
-          font: 35px,bold,;
-          color: mediumblue;
-          font-family: roboto slab;
-
-      }
-       
+        height: 100%; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        
+      
+      
+    
+    
+      

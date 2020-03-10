@@ -24,21 +24,24 @@
   </div>
  
   <nav class="navbar nav-tabs navbar-expand-lg navbar-light style="float-content:center">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link " href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link active" href="index.html">About</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
+      
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link " href="portfolio.html">Portfolio </a>
+        
+        <a class="nav-item nav-link " href="contact.html">Contact</a>
+      </div>
       
         </div>
       </div>
     </nav>
-    <div  class="bg" class="img-fluid" >
+    <div   class="img-fluid" >
+      <img class="bg" src="images/bgfire.jpg" > 
 
-        <div class="picture">
+        <div class="picture-profile">
           <img src="images/profile_edit.jpg" > 
           </div>
           <div class="textbox" style="font-family: indie flower;font-size: 24px;" >
@@ -60,28 +63,21 @@
     
 </body>
 <style>
- .bg {
-    /* Creates a background, which scales and is easily positioned under everthing else. */
-    background-image: url("./images/bgfire.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+
     
     /* adjustments for different screen sizes */
     /* only effects profile picture */
     @media screen and (max-width: 1120px) {
-      .picture img{
+      .picture-profile img{
         width:35%
       }}
       @media screen and (max-width: 800px){
-        .picture img{
+        .picture-profile img{
           width: 48%;
         }
       }
       @media screen and (max-width: 550px){
-        .picture img{
+        .picture-profile img{
           width: 65%;
         }
       }
